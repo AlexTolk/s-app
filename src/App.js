@@ -10,9 +10,9 @@ function App() {
       <div className='nav-container container'>
         <nav>
           <ul>
-            <li><Link to={'/home'} className='link'>Main</Link></li>
-            <li><Link to={'/about'} className='link'>About</Link></li>
-            <li><Link to={'/contacts'} className='link'>Contacts</Link></li>
+            <li><Link to={'/home'} className='link link__main'>Main</Link></li>
+            <li><Link to={'/about'} className='link link__about'>About</Link></li>
+            <li><Link to={'/contacts'} className='link link__contacts'>Contacts</Link></li>
           </ul>
         </nav>
       </div>
