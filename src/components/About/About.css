@@ -7,3 +7,17 @@
     width: 100vw;
     background-color: lightcoral;
 }
+.pokemons-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.pokemons-card {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(244, 85, 85);
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
